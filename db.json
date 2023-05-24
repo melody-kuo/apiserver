@@ -1,10 +1,4 @@
 {
-   "secretKey": {
-      "key": "123456789"
-   },
-   "expiresIn": {
-      "time": "1h"
-   },
    "users": [
       {
          "id": 1,
@@ -30,11 +24,5 @@
          "email":" bruno@email.com",
          "password": "bruno"
       }
-   ],
-   "authenticationURL": {
-      "url": "/auth/login"
-   },
-   "authenticatedURL": {
-      "url": "/comments"
-   }
+   ]
 }
