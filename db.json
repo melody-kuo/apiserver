@@ -1,7 +1,34 @@
 {
-    "user": {
-        "username": "admin",
-        "password": "1234",
-        "token": "ahjdhsjkfh453535kdgjlieoipoiowqurqwvnmvjbciS785265akdfd"
-    }
+   "secretKey":"123456789",
+   "expiresIn":"1h",
+   "users":[
+      {
+         "id":1,
+         "name":"admin",
+         "email":"admin@email.com",
+         "password":"1234"
+      },
+      {
+         "id":2,
+         "name":"techie",
+         "email":"techie@email.com",
+         "password":"techie"
+      },
+      {
+         "id":3,
+         "name":"nilson",
+         "email":"nilson@email.com",
+         "password":"nilson"
+      },
+      {
+         "id":4,
+         "name":"bruno",
+         "email":"bruno@email.com",
+         "password":"bruno"
+      },
+   ],
+   "authenticationURL":"/auth/login",
+   "authenticatedURL":[
+      "/comments"
+   ]
 }
