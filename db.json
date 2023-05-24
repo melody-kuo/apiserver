@@ -1,6 +1,10 @@
 {
-   "secretKey": "123456789",
-   "expiresIn": "1h",
+   "secretKey": {
+      "key": "123456789"
+   },
+   "expiresIn": {
+      "time": "1h"
+   },
    "users": [
       {
          "id": 1,
@@ -27,6 +31,10 @@
          "password": "bruno"
       }
    ],
-   "authenticationURL": "/auth/login",
-   "authenticatedURL": "/comments"
+   "authenticationURL": {
+      "url": "/auth/login"
+   },
+   "authenticatedURL": {
+      "url": "/comments"
+   }
 }
