@@ -1,7 +1,7 @@
 {
    "secretKey":"123456789",
    "expiresIn":"1h",
-   "users":{
+   "users":[
       {
          "id":1,
          "name":"admin",
@@ -25,10 +25,10 @@
          "name":"bruno",
          "email":"bruno@email.com",
          "password":"bruno"
-      },
-   },
+      }
+   ],
    "authenticationURL":"/auth/login",
-   "authenticatedURL":{
+   "authenticatedURL":[
       "/comments"
-   }
+   ]
 }
